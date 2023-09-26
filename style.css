@@ -1,7 +1,37 @@
+body {
+  background: gray;
+}
+
+header {
+  position: relative;
+  width: 1000px;
+  height: 200px;
+  background: blue;
+  margin: auto;
+  border: 5px solid yellow;
+  padding: 20px;
+}
+
 #logotipo {
-  color: red;
+  width: 200px;
+  height: 60px;
+  background: green;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 
 .noticias {
-  color: purple;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+}
+
+#noti1 {
+  background: blueviolet;
+}
+#noti2 {
+  background: #ff9000;
+}
+#noti3 {
+  background: rgba(0, 100, 255, .5);
 }
